@@ -1,6 +1,17 @@
 #include <iostream>
 using namespace std;
 
+void initialiseVariables(){
+    int money=10000;
+    int captain=1;
+    int crewMates=0;
+    string name;
+    int provisions=75;
+    int planks=100;
+    int spareSail = 1;
+    int cannonBalls = 150;
+}
+
 int main(){
   
   intialiseVariables(); // Intialise variables e.g. Money, crewmembers, supplies, provisions etc...
